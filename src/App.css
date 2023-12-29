@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Asigură că body ocupă întreaga înălțime a vizualizării */
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgb(4, 0, 66) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.App {
+    text-align: center;
+
+}
