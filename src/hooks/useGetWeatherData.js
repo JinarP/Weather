@@ -5,7 +5,7 @@ import {toast} from "react-toastify"
 const useGetWeatherData = (city) => {
     const [weatherData, setWeatherData] = useState(null)
     useEffect(() => {
-        const fetcher = async () => {
+       const fetcher = async () => {
             try {
 
                 const data = await getWeatherData(city);
